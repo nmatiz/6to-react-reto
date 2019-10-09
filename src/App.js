@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div>
         {this.state.names.map((name) =>
-          <Welcome name={name} />
+          <Welcome key = {name} name = {name}/>
         )}
       </div>
     );
