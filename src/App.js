@@ -16,9 +16,9 @@ class App extends Component {
     return (
       <div>
         {/**Desde aqui se llama a names y se recorre con el map, y el indice es name */}
-        {this.state.names.map((name2) =>
+        {this.state.names.map((namey) =>
         /*Se importa la funcion 'welcome' */
-          <Welcome key = {name2} namex = {name2}/>
+          <Welcome key = {namey} name = {namey}/>
         )}
       </div>
     );
