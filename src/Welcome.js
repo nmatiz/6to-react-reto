@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Welcome = (hello) => <h1>Hola {hello.name}</h1>
+const Welcome = (hello) => <h1>Hola {hello.namex}</h1>
 
 export default Welcome
